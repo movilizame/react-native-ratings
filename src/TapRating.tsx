@@ -1,5 +1,3 @@
-import _ from "lodash";
-
 import React, { useState, useEffect } from "react";
 
 import { StyleSheet, Text, View, StyleProp, ViewStyle } from "react-native";
@@ -112,9 +110,7 @@ const TapRating: React.FunctionComponent<TapRatingProps> = props => {
   }, [props.defaultRating] );
 
   const renderStars = rating_array => {
-    return _.map( rating_array, star => {
-      return star;
-    } );
+    return rating_array.map((star) => star)
   };
 
   const starSelectedInPosition = position => {
@@ -141,7 +137,7 @@ const TapRating: React.FunctionComponent<TapRatingProps> = props => {
     ratingContainerStyle.push( props.ratingContainerStyle );
   }
 
-  _.times( count, index => {
+  Array.apply(null, Array(count)).map((_, index) => (
     rating_array.push(
       <Star
         key={index}
@@ -153,7 +149,7 @@ const TapRating: React.FunctionComponent<TapRatingProps> = props => {
         {...props}
       />
     );
-  } );
+  ));
 
   return (
     <View style={ratingContainerStyle}>
