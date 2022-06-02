@@ -1,6 +1,6 @@
 {
   "name": "react-native-ratings-movilizame",
-  "version": "8.1.0",
+  "version": "9.0.0",
   "description": "The standard Ratings component for React Native // With fixes",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/movilizame/react-native-ratings#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
