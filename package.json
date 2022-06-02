@@ -1,7 +1,7 @@
 {
   "name": "react-native-ratings",
   "version": "8.1.0",
-  "description": "The standard Ratings component for React Native",
+  "description": "The standard Ratings component for React Native // With fixes",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": {
@@ -29,7 +29,7 @@
     "copy-files": "cp -R ./src/images ./dist/images/",
     "postbuild": "yarn run copy-files"
   },
-  "author": "Monte Thakkar",
+  "author": "Movilizame",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Monte9/react-native-ratings/issues"
