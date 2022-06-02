@@ -1,12 +1,12 @@
 {
-  "name": "react-native-ratings",
+  "name": "react-native-ratings-movilizame",
   "version": "8.1.0",
   "description": "The standard Ratings component for React Native // With fixes",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+    "url": "git+ssh://git@github.com/movilizame/react-native-ratings.git"
   },
   "keywords": [
     "react-native",
@@ -32,9 +32,9 @@
   "author": "Movilizame",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Monte9/react-native-ratings/issues"
+    "url": "https://github.com/movilizame/react-native-ratings/issues"
   },
-  "homepage": "https://github.com/Monte9/react-native-ratings#readme",
+  "homepage": "https://github.com/movilizame/react-native-ratings#readme",
   "dependencies": {
     "lodash": "^4.17.15"
   },
